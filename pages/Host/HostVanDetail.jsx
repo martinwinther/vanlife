@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams, Link, NavLink, Outlet } from "react-router-dom";
 
+// holiday
 export default function HostVanDetail() {
 	const { id } = useParams();
 	const [currentVan, setCurrentVan] = useState(null);
